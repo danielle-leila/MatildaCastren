@@ -32,19 +32,19 @@ a {
 
 header {
   position: absolute;
-  /*position: fixed; */
+  /*position: fixed; For navigation that follows as you scroll */
   width: 100%;
   z-index: 5;
 }
 
 header ul {
   display: flex;
-  align-items: flex-end;
+  justify-content: flex-end;
+  padding-right: 1.75rem;
 }
 
 nav li {
-  padding: 0.5rem 0 0.5rem 3.5rem;
-
+  padding: 0.5rem 1.75rem;
 }
 
 nav a {
@@ -115,6 +115,26 @@ nav a {
 
 }
 
+/* Sponsor logos */
+
+.sponsor-logos .flex {
+  justify-content: space-around;
+  padding: 3rem 0;
+}
+
+.img-container {
+  overflow: hidden;
+  width: 18%;
+  margin: auto;
+}
+
+.sponsor-logos img {
+  display: block;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+
 /* Section common */
 
 section {
@@ -144,6 +164,10 @@ section h2 {
 .bio-text {
   width: 50%;
   padding: 1rem 0 3rem 0;
+}
+
+.key-info p {
+  padding: 0.5rem 0 2rem 0;
 }
 
 
