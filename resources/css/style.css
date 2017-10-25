@@ -1,0 +1,198 @@
+html {
+  font-family: "Monserrat", sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+}
+
+/* Navigation */
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+
+header ul {
+  display: flex;
+  align-items: flex-end;
+}
+
+nav li {
+  padding: 0.5rem 0 0.5rem 3.5rem;
+
+}
+
+nav a {
+  line-height: 2;
+  font-size: 1rem;
+  color: #fff;
+}
+
+
+
+
+/* Main banner */
+
+#main-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+  width: 100%;
+  height: 60rem;
+  background-image: url("../images/main-banner-bkg.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  color: #fff;
+  text-align: right;
+}
+
+#main-banner h1 {
+  font-size: 5rem;
+  padding-bottom: 1rem;
+  font-weight: 200;
+
+}
+
+#main-banner h3 {
+  font-size: 1.25rem;
+  font-style: italic;
+  font-weight: lighter;
+  padding-bottom: 3rem;
+}
+
+#main-banner .btn {
+  border: 2px solid #fff;
+  padding: 0.5rem 0.75rem;
+  margin: 1rem 0 1rem 2rem;
+}
+
+#main-banner .btn:hover {
+  background-color: #fff;
+  color: grey;
+}
+
+
+
+
+/* Up Next Banner */
+
+#up-next-banner {
+  padding: 0.75rem;
+  text-align: center;
+  background-color: grey;
+  color: #fff;
+}
+
+#up-next-banner span {
+
+}
+
+/* Section common */
+
+section {
+  padding: 3em 0;
+}
+
+section h2 {
+  font-size: 3em;
+  padding: 1rem 0;
+}
+
+
+
+/* Bio */
+
+
+
+#bio .flex {
+  justify-content: space-between;
+}
+
+.key-info {
+  width: 50%;
+  padding: 1rem 0 0 0;
+}
+.bio-text {
+  width: 50%;
+  padding: 1rem 0 0 0;
+}
+
+
+
+
+/* News */
+
+
+/* Contact */
+
+#contact {
+  display: flex;
+}
+
+#contact div {
+  flex-grow: 1;
+  text-align: center;
+  padding: 8rem 0;
+}
+
+#contact .gofundme-box {
+  background-color: #FFFF00;
+  color: grey;
+}
+
+#contact .contact-box {
+  background-color: grey;
+  color: white;
+}
+
+#contact h4 {
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+
+}
+
+#contact .btn {
+  border: 2px solid #fff;
+  padding: 0.5rem 0.75rem;
+}
+
+#contact .btn:hover {
+  background-color: #fff;
+  color: grey;
+}
+
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 30rem;
+  background-image: url("../images/footer-bkg.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+
+footer a:hover {
+  color: grey;
+}
